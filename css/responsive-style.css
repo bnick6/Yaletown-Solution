@@ -1,0 +1,193 @@
+@media(max-width:767px)
+{
+    h2 {
+        font-size: 28px !important;
+        font-weight: 600;
+    }
+    p{
+        font-size: 14px !important;
+    }
+    button.navbar-toggler {
+        border: none;
+        padding: 0;
+    }
+    button.navbar-toggler:focus {
+        border: none;
+        box-shadow: none !important;
+    }
+    .main-top-header ul {
+        gap: 0px !important;
+    }
+    .buttons-login.w-25 {
+        width: 100% !important;
+        justify-content: flex-start !important;
+        margin-top: 30px;
+    }
+    .useful-links {
+        max-width: 100% !important;
+    }
+    footer.footer .row {
+        row-gap: 20px;
+    }
+    a.navbar-brand img {
+        width: 60px;
+    }
+    .navbar-collapse, .navbar-collapseing {
+        padding: 10px 30px 30px;
+        position: absolute;
+        background: #fff;
+        width: 100%;
+        left: 0;
+        top: 100%;
+    }
+    footer.footer {
+        padding: 40px 0 0!important;
+    }
+    .useful-links ul {
+        gap: 8px !important;
+    }
+    section.contact-us .inr-ryt-icon-list {
+        padding: 20px !important;
+        gap: 30px !important;
+    }
+    .icon i {
+        font-size: 32px  !important;
+    }
+    .icon {
+        width: 32px  !important;
+    }
+    .inr-data h4 {
+        font-size: 18px  !important;
+    }
+    .inr-data p {
+        font-size: 14px  !important;
+        margin: 0  !important;
+    }
+    section.contact-us .inr-lft-form {
+        padding: 20px 20px 40px !important;
+    }
+    section.contact-us {
+        padding: 40px 0 !important;
+    }
+    .mission-content {
+        padding-left: 0 !important;
+        padding-bottom: 30px;
+    }
+    section.help-your-client {
+        padding: 40px 0 !important;
+    }
+    section.help-your-client .row, section.our-mission .row {
+        gap: 30px;
+    }
+    .main-banner-home {
+        padding: 40px 0px !important;
+    }
+	.banner-content h1 {
+        font-size: 32px !important;
+    }
+    .contctBtn {
+        padding: 10px 40px !important;
+    }
+    section.our-mission {
+        padding: 40px 0px !important;
+    }
+    .navbar-brand img {
+        width: 50px;
+        height: 50px;
+        object-fit: cover;
+    }
+	
+}
+
+
+@media(min-width:768px) and (max-width:991px)
+{
+    button.navbar-toggler {
+        border: none;
+        padding: 0;
+    }
+    .navbar-collapse, .navbar-collapseing {
+        padding: 10px 30px 30px;
+        position: absolute;
+        background: #fff;
+        width: 100%;
+        left: 0;
+        top: 100%;
+    }
+    button.navbar-toggler:focus {
+        border: none;
+        box-shadow: none !important;
+    }
+    .main-top-header ul {
+        gap: 0px !important;
+    }
+    .buttons-login.w-25 {
+        width: 100% !important;
+        justify-content: flex-start !important;
+        margin-top: 30px;
+    }
+    .useful-links {
+        max-width: 100% !important;
+    }
+    footer.footer .row {
+        row-gap: 20px;
+    }
+    section.contact-us .inr-ryt-icon-list {
+        padding: 20px !important;
+        gap: 30px !important;
+    }
+    .icon i {
+        font-size: 32px  !important;
+    }
+    .icon {
+        width: 32px  !important;
+    }
+    .inr-data h4 {
+        font-size: 18px  !important;
+    }
+    .inr-data p {
+        font-size: 14px  !important;
+        margin: 0  !important;
+    }
+    section.contact-us .inr-lft-form {
+        padding: 20px 20px 40px !important;
+    }
+    section.contact-us {
+        padding: 40px 0 !important;
+    }
+    .mission-content {
+        padding-left: 0 !important;
+        padding-bottom: 30px;
+    }
+    section.help-your-client {
+        padding: 40px 0 !important;
+    }
+    section.help-your-client .row, section.our-mission .row {
+        gap: 30px;
+    }
+    .main-banner-home {
+        padding: 40px 0px !important;
+    }
+	.banner-content h1 {
+        font-size: 32px !important;
+    }
+    .contctBtn {
+        padding: 10px 40px !important;
+    }
+    section.our-mission {
+        padding: 40px 0px !important;
+    }
+    .navbar-brand img {
+        width: 60px;
+        height: 60px;
+        object-fit: cover;
+    }
+}
+@media(min-width:1024px)
+{
+    .navbar-brand img {
+        width: 75px;
+        height: 75px;
+        object-fit: cover;
+    }
+}

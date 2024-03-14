@@ -1,0 +1,439 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+html
+{
+    font-family: "Montserrat", sans-serif;
+}
+body
+{
+    font-family: "Montserrat", sans-serif;
+}
+a{
+    text-decoration: none;
+}
+a.secondary-button {
+    background: #fc6303c7;
+    color: #fff;
+    border: 1px solid #fc6303c7;
+    padding: 10px 20px;
+    border-radius: 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: fit-content;
+    transition: .5s;
+}
+a.primary-button {
+    color: #fc6303c7;
+    background-color: #fff;
+    border: 1px solid #fc6303c7;
+    padding: 10px 20px;
+    border-radius: 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: fit-content;
+    transition: .5s;
+}
+a.primary-button:hover {
+    background: #fc6303c7;
+    color: #fff;
+    transition: .5s;
+}
+a.primary-button:hover path {
+    fill: #fff;
+    transition: .5s;
+    
+}
+a.secondary-button:hover {
+    background: transparent;
+    color: #fc6303c7;
+    transition: .5s;
+}
+a.secondary-button:hover path {
+    fill: #fc6303c7;
+    transition: .5s;
+}
+
+/* header css */
+header.header {
+    z-index: 9;
+    box-shadow: 1px 1px 10px 1px #00000012;
+}
+header.header nav.navbar a {
+    color: #000;
+    font-weight: 500;
+}
+header.header nav.navbar a:hover {
+    color: #782834;
+    font-weight: 500;
+}
+header.header nav.navbar a.nav-link.active {
+    color: #782834;
+    font-weight: 600;
+}
+header.header nav.navbar ul.navbar-nav {
+    gap: 30px;
+}
+
+/* Banner css */
+.main-banner-home {
+    background-image: url(../images/bnnr-img.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 150px 0px;
+}
+.banner-content {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+}
+.banner-content h1 {
+    color: #fff;
+    font-size: 52px;
+    font-weight: 700;
+}
+.banner-content p {
+    color: #fff;
+    font-size: 18px;
+    margin: 10px 0 20px;
+}
+.contctBtn {
+    background-color: #782834;
+    color: #fff;
+    padding: 15px 40px;
+    border: 1px solid #fff;
+    font-size: 16px;
+    text-transform: capitalize;
+    border-radius: 30px;
+    border: 1px solid #782834;
+    transition: .5s;
+    font-weight: 600;
+}
+.contctBtn:hover {
+    background-color: #ffffff;
+    color: #782834;
+    transition: .5s;
+}
+
+/* Our Mission */
+
+section.our-mission {
+    padding: 80px 0px;
+}
+.mission-content {
+    width: 100%;
+    padding-left: 60px;
+}
+.mission-content h2 {
+    font-size: 46px;
+    font-weight: 600;
+}
+.mission-content p {
+    color: #000;
+    font-weight: 500;
+    margin: 10px 0 30px;
+}
+section.our-mission .ryt-image img {
+    width: 100%;
+}
+
+/* End Our Mission */
+
+
+/* End Help Your Client */
+
+section.help-your-client {
+    background: #eee;
+    padding: 90px 0;
+}
+section.help-your-client .ryt-image img {
+    width: 100%;
+}
+
+/* End Help Your Client */
+
+
+/* Contact us */
+
+section.contact-us {
+    padding: 90px 0;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+section.contact-us .inr-lft-form {
+    width: 100%;
+    background: #C1C0C04D;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+section.contact-us .inr-ryt-icon-list {
+    padding: 50px;
+    background: url('../images/mission.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    gap: 50px;
+    justify-content: center;
+}
+.icon-list {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 20px;
+}
+.icon i {
+    font-size: 56px;
+    color: #ffffff;
+}
+.inr-data {
+    width: calc(100% - 80px);
+}
+.icon {
+    width: 60px;
+}
+.inr-data a {
+    color: #ffffff;
+}
+.inr-data h4 {
+    font-size: 24px;
+    margin: 0;
+    font-weight: 600;
+    color: #ffffff;
+}
+section.contact-us .inr-ryt-icon-list:after {
+    content: "";
+    background: #000000ad;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+}
+.inr-lft-form form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 30px;
+}
+.inr-lft-form form label {
+    font-size: 16px;
+    font-weight: 600;
+    width: 100%;
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+}
+.inr-lft-form form label input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #eee;
+    font-size: 16px;
+    border-radius: 6px;
+}
+.inr-lft-form form label textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #eee;
+    font-size: 16px;
+    border-radius: 6px;
+    height: 100px;
+    resize: none;
+}
+.inr-lft-form form button {
+    width: 100%;
+    height: 50px;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: 1px solid #792835;
+    background: #792835;
+    color: #fff;
+    border-radius: 6px;
+    margin-top: 30px;
+    transition: .5s;
+}
+.inr-lft-form form button:hover {
+    background: #fff;
+    color: #792835;
+    transition: .5s;
+}
+.inr-lft-form h2 {
+    font-weight: 700;
+}
+.inr-lft-form h4 {
+    margin: 0;
+}
+
+/* end Contact us */
+
+/* footer css */
+footer.footer {
+    padding: 90px 0 0;
+    background: url('../images/footer-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.inr-ftr {
+    width: 100%;
+}
+.inr-ftr ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.inr-ftr ul li a {
+    color: #222325;
+    position: relative;
+    transition: .5s;
+    word-wrap: break-word;
+}
+.inr-ftr form label {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    border-radius: 6px;
+}
+.inr-ftr form label input {
+    width: calc(100% - 60px);
+    padding: 10px;
+    border: 1px solid #eee;
+    font-size: 16px;
+    border-radius: 6px 0 0 6px;
+}
+input:focus, textarea:focus {
+    outline: 1px solid #782834;
+}
+.inr-ftr form label button {
+    width: 60px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 46px;
+    border: 1px solid #792835;
+    background: #792835;
+    color: #fff;
+    border-radius:0 6px 6px 0;
+}
+.inr-ftr ul li a img {
+    position: absolute;
+    left: -30px;
+    top: 2px;
+}
+.inr-ftr ul li a:hover {
+    color: #055073;
+    transition: .5s;
+}
+.useful-links h4, .inr-ftr h4 {
+    color: #792835;
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 14px;
+    font-weight: 600;
+}
+.useful-links ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0;
+}
+.useful-links ul li a {
+    color: #000;
+    font-size: 14px;
+    line-height: 16px;
+    position: relative;
+    transition: .5s;
+    font-weight: 500;
+}
+.useful-links ul li a:hover{
+    transition: .5s;
+    color: #782834;
+}
+.useful-links {
+    width: 100%;
+    margin: 0 auto;
+}
+.inr-ftr p {
+    margin: 0;
+    color: #222325;
+}
+.inr-ftr .social-icons {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 30px;
+}
+.inr-ftr a.logo {
+    width: 100px;
+    display: inline-block;
+}
+.inr-ftr a img {
+    width: 100%;
+}
+.social-icons img {
+    width: 24px;
+    transition: .5s;
+    opacity: .8;
+}
+.social-icons img:hover {
+    transform: scale(1.2);
+    transition: .5s;
+}
+.copyright {
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 42px;
+    border-top: 1px solid #D9D9D9;
+}
+.copyright p {
+    margin: 0;
+    color: #222325;
+    font-size: 16px;
+}
+.social-icons a {
+    color: #792835;
+}
+.social-icons a i {
+    font-size: 22px;
+    transition: .5s;
+}
+.social-icons a i:hover {
+    transform: scale(1.2);
+    transition: .5s;
+}
+/* banner css */
+
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
